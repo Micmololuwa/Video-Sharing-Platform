@@ -1,10 +1,10 @@
 import React from "react"
-import navBar from "./components/navbar"
+import NavBar from "./components/Navbar"
 
 export default function App(){
     return (
         <div>
-            <navBar />
+            <NavBar />
         </div>
         
     )
