@@ -10,4 +10,15 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+.container .navbar .left-side {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.container .navbar .left-side a {
+  text-decoration: none;
+}
+.container .navbar .left-side a .logo {
+  width: 150px;
 }/*# sourceMappingURL=style.css.map */
