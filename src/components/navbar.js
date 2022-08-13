@@ -1,5 +1,5 @@
 import React from "react"
-import "../css/style.css"
+import "./css/style.css"
 
 export default function NavBar(){
     return (
@@ -10,17 +10,15 @@ export default function NavBar(){
                 <a href="#"> <img src="./images/menu.png" alt="menu" /> </a> 
                 
                 <a href="#" className="logo">
-                    <img src="./images/youtube.png" alt="youtube" />
+                    <img src="./images/youtube.svg" alt="youtube" />
                 </a>
             </div>
             
 
             <div className="middle">
 
-                <form className="search">
-                    <input placeholder="search" />
-                    <img src="./images/search.png" alt="search" />
-                </form>
+                <input placeholder="search" />
+                <img src="./images/search.png" alt="search" />
                 <a href="#"><img src="./images/mic.png" alt="mic" /></a> 
 
             </div>
