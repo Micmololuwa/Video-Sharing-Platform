@@ -1,0 +1,13 @@
+import React from 'react'
+import SideBar from './Sidebar'
+import HomePage from './Homepage'
+export default function Main() {
+  return (
+    <div className='Main'>
+
+        <SideBar />
+        <HomePage />
+        
+    </div>
+  )
+}
