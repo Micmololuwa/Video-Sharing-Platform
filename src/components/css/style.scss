@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300;500&family=Noto+Sans:wght@100;200;300;400;500;600;700;800&display=swap');
+
+// :root{
+//     --
+// }
+
+*{
+    padding: 0px; 
+    margin: 0px;
+}
+
+.container{
+
+    .navbar{
+        background-color: #252525;
+        padding: 7px 20px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .left-side{
+            display: flex;
+            align-items: center;
+            
+
+            a{
+                text-decoration: none;
+                .logo{
+                    width: 100px;
+                    margin-left: 20px;
+                }
+            }
+
+        }
+
+        .middle{
+
+            display: flex;
+            align-items: center;
+            input{
+                background-color: #121212;
+                width: 550px;
+                height: 40px;
+                border: 1px solid #303030;
+
+                
+            }
+            ::placeholder {
+                font-size: 16px;
+                padding-left: 10px;
+            }
+            .search-icon{
+                background-color: #303030;
+                width:22px;
+                padding: 10px  15px;
+            }
+            a{
+                text-decoration: none;
+                .voice-speech{
+                    width: 20px;
+                    background-color: #121212;
+                    padding: 10px;
+                    border-radius: 50%;
+                    margin-left: 10px;
+                }
+            }
+        }
+
+        .right-side{
+            display: flex;
+            align-items: center;
+            
+
+            a{
+                text-decoration: none;
+                margin-left: 25px;
+
+                .profile{
+                    width: 40px;
+                    border-radius: 50%;
+                }
+            }
+        }
+    }
+}

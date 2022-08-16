@@ -7,26 +7,26 @@ export default function NavBar(){
         
             <div className="left-side">
                 
-                <a href="#"> <img src="./images/menu.png" alt="menu" /> </a> 
+                <a href="#"> <img src="./images/menu.svg" alt="menu" /> </a> 
                 
-                <a href="#" className="logo">
-                    <img src="./images/youtube.svg" alt="youtube" />
+                <a href="#" >
+                    <img  className="logo" src="./images/youtube.svg" alt="youtube" />
                 </a>
             </div>
             
 
             <div className="middle">
 
-                <input placeholder="search" />
-                <img src="./images/search.png" alt="search" />
-                <a href="#"><img src="./images/mic.png" alt="mic" /></a> 
+                <input placeholder="Search" />
+                <img src="./images/search.svg" alt="search" className="search-icon"/>
+                <a href="#"><img className="voice-speech" src="./images/mic.svg" alt="mic" /></a> 
 
             </div>
             
             <div className="right-side">
-                <a href="#"><img src="./images/video.png" alt="ad-video" /></a> 
-                <a href="#"> <img src="./images/bell.png" alt="notification" /> </a>
-                <a href="#"> <img src="./images/profile.png" alt="profile-pics" /> </a>
+                <a href="#"><img className="video" src="./images/video.svg" alt="ad-video" /></a> 
+                <a href="#"> <img className="bell" src="./images/bell.svg" alt="notification" /> </a>
+                <a href="#"> <img className="profile" src="./images/profile.png" alt="profile-pics" /> </a>
             </div>
         </div>
     )

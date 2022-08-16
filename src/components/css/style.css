@@ -6,7 +6,7 @@
 
 .container .navbar {
   background-color: #252525;
-  padding: 20px;
+  padding: 7px 20px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -14,11 +14,60 @@
 .container .navbar .left-side {
   display: flex;
   align-items: center;
-  justify-content: space-between;
 }
 .container .navbar .left-side a {
   text-decoration: none;
 }
 .container .navbar .left-side a .logo {
-  width: 150px;
+  width: 100px;
+  margin-left: 20px;
+}
+.container .navbar .middle {
+  display: flex;
+  align-items: center;
+}
+.container .navbar .middle input {
+  background-color: #121212;
+  width: 550px;
+  height: 40px;
+  border: 1px solid #303030;
+}
+.container .navbar .middle ::-moz-placeholder {
+  font-size: 16px;
+  padding-left: 10px;
+}
+.container .navbar .middle :-ms-input-placeholder {
+  font-size: 16px;
+  padding-left: 10px;
+}
+.container .navbar .middle ::placeholder {
+  font-size: 16px;
+  padding-left: 10px;
+}
+.container .navbar .middle .search-icon {
+  background-color: #303030;
+  width: 22px;
+  padding: 10px 15px;
+}
+.container .navbar .middle a {
+  text-decoration: none;
+}
+.container .navbar .middle a .voice-speech {
+  width: 20px;
+  background-color: #121212;
+  padding: 10px;
+  border-radius: 50%;
+  margin-left: 10px;
+}
+.container .navbar .right-side {
+  display: flex;
+  align-items: center;
+}
+.container .navbar .right-side a {
+  text-decoration: none;
+  margin-left: 25px;
+}
+.container .navbar .right-side a .profile {
+  width: 40px;
+  border-radius: 50%;
 }/*# sourceMappingURL=style.css.map */
