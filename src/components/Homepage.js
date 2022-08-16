@@ -5,7 +5,7 @@ import "./css/style.css"
 
 export default function HomePage() {
   return (
-    <div className= "HomePage" >
+    <div className= "homepage" >
         <Filter />
         <Videos />
     </div>
