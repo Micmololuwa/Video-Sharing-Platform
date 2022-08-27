@@ -1,5 +1,5 @@
 import React from "react"
-import "./css/style.css"
+import "./css/navbar.css"
 
 export default function NavBar(){
     return (
@@ -19,7 +19,7 @@ export default function NavBar(){
 
                 <input placeholder="Search" />
                 <img src="./images/search.svg" alt="search" className="search-icon"/>
-                <a href="#"><img className="voice-speech" src="./images/mic.svg" alt="mic" /></a> 
+                <a href="#" className="nav--mic"><img className="voice-speech" src="./images/mic.svg" alt="mic" /></a> 
 
             </div>
             
