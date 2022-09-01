@@ -12,6 +12,7 @@ This project is created for learning React, it's a copy of youtue clonce created
 3. Comment on the issue you wish to resolve for permission
 4. Create a screenshot of your changes when done before PR
 5. You must be an AltSchool Student 
+6. All pull request should be send to the review branch
 
 [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg)](code_of_conduct.md)
 
