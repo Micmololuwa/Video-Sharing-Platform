@@ -5,165 +5,20 @@
   margin: 0px;
 }
 
-.container .navbar {
-  background-color: #252525;
-  padding: 7px 20px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-}
-
-.container .navbar .left-side {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-.container .navbar .left-side a {
-  text-decoration: none;
-}
-
-.container .navbar .left-side a .logo {
-  width: 100px;
-  margin-left: 20px;
-}
-
-.container .navbar .middle {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-.container .navbar .middle input {
-  background-color: #121212;
-  width: 550px;
-  height: 40px;
-  border: 1px solid #303030;
-}
-
-.container .navbar .middle ::-webkit-input-placeholder {
-  font-size: 16px;
-  padding-left: 10px;
-}
-
-.container .navbar .middle :-ms-input-placeholder {
-  font-size: 16px;
-  padding-left: 10px;
-}
-
-.container .navbar .middle ::-ms-input-placeholder {
-  font-size: 16px;
-  padding-left: 10px;
-}
-
-.container .navbar .middle ::placeholder {
-  font-size: 16px;
-  padding-left: 10px;
-}
-
-.container .navbar .middle .search-icon {
-  background-color: #303030;
-  width: 22px;
-  padding: 10px  15px;
-}
-
-.container .navbar .middle a {
-  text-decoration: none;
-}
-
-.container .navbar .middle a .voice-speech {
-  width: 20px;
-  background-color: #121212;
-  padding: 10px;
-  border-radius: 50%;
-  margin-left: 10px;
-}
-
-.container .navbar .right-side {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-.container .navbar .right-side a {
-  text-decoration: none;
-  margin-left: 25px;
-}
-
-.container .navbar .right-side a .profile {
-  width: 40px;
-  border-radius: 50%;
-}
-
 .container .main {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   background-color: #F9F9F9;
 }
-
-.container .main .sidebar {
-  background-color: white;
-  padding: 20px 8px;
-}
-
-.container .main .sidebar a {
-  text-decoration: none;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  margin-bottom: 30px;
-}
-
-.container .main .sidebar a img {
-  margin-bottom: 10px;
-  width: 22px;
-}
-
-.container .main .sidebar a p {
-  font-weight: 300px;
-  font-size: 11px;
-  color: black;
-}
-
 .container .main .homepage {
   width: 100%;
 }
-
 .container .main .homepage .filter {
   background-color: white;
   padding: 15px 15px 15px 15px;
   border-bottom: 1px solid #E5E5E5;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  justify-content: space-between;
 }
-
 .container .main .homepage .filter button {
   padding: 8px 18px;
   border-radius: 20px;
@@ -171,43 +26,32 @@
   color: #2d2d2d;
   font-weight: 300px;
 }
-
 .container .main .videos {
   padding: 0px 20px 20px 20px;
-  display: -ms-grid;
   display: grid;
-  grid: auto / auto auto auto auto;
+  grid: auto/auto auto auto auto;
 }
-
 .container .main .videos .video {
   margin-top: 20px;
 }
-
 .container .main .videos .video .video-info {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   margin-top: 10px;
 }
-
 .container .main .videos .video .video-info .poster-img {
   margin-right: 10px;
 }
-
 .container .main .videos .video .video-info .poster-img img {
   width: 40px;
   border-radius: 50%;
 }
-
 .container .main .videos .video .video-info .info h3 {
   margin-bottom: 10px;
   font-size: 16px;
   color: #030303;
 }
-
 .container .main .videos .video .video-info .info p {
   font-weight: 300px;
   color: #606060;
   font-size: 12px;
 }
-/*# sourceMappingURL=style.css.map */
