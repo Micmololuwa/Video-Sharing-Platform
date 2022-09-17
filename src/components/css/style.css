@@ -74,7 +74,7 @@
 }
 .container .main {
   display: flex;
-  background-color: #F9F9F9;
+  background-color: #f9f9f9;
 }
 .container .main .sidebar {
   background-color: white;
@@ -102,7 +102,7 @@
 .container .main .homepage .filter {
   background-color: white;
   padding: 15px 15px 15px 15px;
-  border-bottom: 1px solid #E5E5E5;
+  border-bottom: 1px solid #e5e5e5;
   display: flex;
   justify-content: space-between;
 }
