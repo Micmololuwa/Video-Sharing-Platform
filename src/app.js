@@ -1,20 +1,15 @@
 import React, { useState } from "react";
+import NavBar from "./components/Navigations";
+import HomePage from "./components/Homepage";
+import SideBar from "./components/Sidebar";
 import "./components/css/style.css";
-import NavBar from "./components/navbar";
-import Main from "./components/Main";
-import Testing from "./components/testing";
-import { Link, Route, Routes } from "react-router-dom";
 
 export default function App() {
   return (
     <div className="container">
-      <NavBar />
-
-      {/* <Main /> */}
-      <Routes>
-        <Route path="/" element={<Main />}></Route>
-        <Route path="/testing" element={<Testing />}></Route>
-      </Routes>
+      {/* <NavBar /> */}
+      <SideBar />
+      <HomePage />
     </div>
   );
 }

@@ -5,139 +5,239 @@
   margin: 0px;
 }
 
-.container .navbar {
-  background-color: #252525;
-  padding: 7px 20px;
+.container {
+  display: flex;
+}
+.container .navbar-filter {
+  width: 100%;
+}
+.container .navbar-filter .navbar {
+  background-color: #fff;
   display: flex;
   align-items: center;
   justify-content: space-between;
+  border-bottom: 1px solid #e5e5e5;
 }
-.container .navbar .left-side {
+.container .navbar-filter .navbar .left-side {
   display: flex;
   align-items: center;
 }
-.container .navbar .left-side a {
+.container .navbar-filter .navbar .left-side a {
   text-decoration: none;
 }
-.container .navbar .left-side a .logo {
+.container .navbar-filter .navbar .left-side a .logo {
   width: 100px;
-  margin-left: 20px;
 }
-.container .navbar .middle {
+.container .navbar-filter .navbar .middle {
   display: flex;
   align-items: center;
 }
-.container .navbar .middle input {
-  background-color: #121212;
+.container .navbar-filter .navbar .middle input {
+  background-color: #fff;
   width: 550px;
   height: 40px;
-  border: 1px solid #303030;
+  border: 1px solid #e5e5e5;
+  border-radius: 20px 0px 0px 20px;
 }
-.container .navbar .middle ::-moz-placeholder {
+.container .navbar-filter .navbar .middle ::-moz-placeholder {
   font-size: 16px;
-  padding-left: 10px;
+  padding-left: 20px;
 }
-.container .navbar .middle :-ms-input-placeholder {
+.container .navbar-filter .navbar .middle :-ms-input-placeholder {
   font-size: 16px;
-  padding-left: 10px;
+  padding-left: 20px;
 }
-.container .navbar .middle ::placeholder {
+.container .navbar-filter .navbar .middle ::placeholder {
   font-size: 16px;
-  padding-left: 10px;
+  padding-left: 20px;
 }
-.container .navbar .middle .search-icon {
-  background-color: #303030;
+.container .navbar-filter .navbar .middle .search-icon {
+  background-color: #F8F8F8;
+  border-top: 1px solid #e5e5e5;
+  border-bottom: 1px solid #e5e5e5;
+  border-right: 1px solid #e5e5e5;
   width: 22px;
-  padding: 10px 15px;
+  padding: 9px 15px;
+  border-radius: 0px 20px 20px 0px;
 }
-.container .navbar .middle a {
+.container .navbar-filter .navbar .middle a {
   text-decoration: none;
 }
-.container .navbar .middle a .voice-speech {
+.container .navbar-filter .navbar .middle a .voice-speech {
   width: 20px;
-  background-color: #121212;
+  background-color: #f8f8f8;
   padding: 10px;
   border-radius: 50%;
   margin-left: 10px;
 }
-.container .navbar .right-side {
+.container .navbar-filter .navbar .right-side {
   display: flex;
   align-items: center;
+  padding-left: 20px;
 }
-.container .navbar .right-side a {
+.container .navbar-filter .navbar .right-side a {
   text-decoration: none;
   margin-left: 25px;
 }
-.container .navbar .right-side a .profile {
-  width: 40px;
+.container .navbar-filter .navbar .right-side a .profile {
+  width: 35px;
   border-radius: 50%;
 }
-.container .main {
-  display: flex;
-  background-color: #f9f9f9;
-}
-.container .main .sidebar {
+.container .navbar-filter .filter {
   background-color: white;
-  padding: 20px 8px;
+  padding: 10px 20px;
+  border-bottom: 1px solid #e5e5e5;
+  display: flex;
+  justify-content: space-between;
 }
-.container .main .sidebar a {
+.container .navbar-filter .filter button {
+  padding: 8px 15px;
+  border-radius: 20px;
+  border: 1px solid #e5e5e5;
+  color: #2d2d2d;
+  font-weight: 400px;
+}
+.container .sidebar {
+  background-color: white;
+  padding: 15px 8px;
+}
+.container .sidebar a {
   text-decoration: none;
   display: flex;
   flex-direction: column;
   align-items: center;
   margin-bottom: 30px;
 }
-.container .main .sidebar a img {
+.container .sidebar a img {
   margin-bottom: 10px;
   width: 22px;
 }
-.container .main .sidebar a p {
+.container .sidebar a p {
   font-weight: 300px;
   font-size: 11px;
   color: black;
 }
-.container .main .homepage {
+.container .homepage {
   width: 100%;
+  background-color: #f9f9f9;
 }
-.container .main .homepage .filter {
+.container .homepage .navbar-filter {
+  width: 100%;
+  position: fixed;
+}
+.container .homepage .navbar-filter .navbar {
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #e5e5e5;
+}
+.container .homepage .navbar-filter .navbar .left-side {
+  display: flex;
+  align-items: center;
+}
+.container .homepage .navbar-filter .navbar .left-side a {
+  text-decoration: none;
+}
+.container .homepage .navbar-filter .navbar .left-side a .logo {
+  width: 100px;
+}
+.container .homepage .navbar-filter .navbar .middle {
+  display: flex;
+  align-items: center;
+}
+.container .homepage .navbar-filter .navbar .middle input {
+  background-color: #fff;
+  width: 550px;
+  height: 40px;
+  border: 1px solid #e5e5e5;
+  border-radius: 20px 0px 0px 20px;
+}
+.container .homepage .navbar-filter .navbar .middle ::-moz-placeholder {
+  font-size: 16px;
+  padding-left: 20px;
+}
+.container .homepage .navbar-filter .navbar .middle :-ms-input-placeholder {
+  font-size: 16px;
+  padding-left: 20px;
+}
+.container .homepage .navbar-filter .navbar .middle ::placeholder {
+  font-size: 16px;
+  padding-left: 20px;
+}
+.container .homepage .navbar-filter .navbar .middle .search-icon {
+  background-color: #F8F8F8;
+  border-top: 1px solid #e5e5e5;
+  border-bottom: 1px solid #e5e5e5;
+  border-right: 1px solid #e5e5e5;
+  width: 22px;
+  padding: 9px 15px;
+  border-radius: 0px 20px 20px 0px;
+}
+.container .homepage .navbar-filter .navbar .middle a {
+  text-decoration: none;
+}
+.container .homepage .navbar-filter .navbar .middle a .voice-speech {
+  width: 20px;
+  background-color: #f8f8f8;
+  padding: 10px;
+  border-radius: 50%;
+  margin-left: 10px;
+}
+.container .homepage .navbar-filter .navbar .right-side {
+  display: flex;
+  align-items: center;
+  margin-right: 110px;
+}
+.container .homepage .navbar-filter .navbar .right-side a {
+  text-decoration: none;
+  margin-left: 25px;
+}
+.container .homepage .navbar-filter .navbar .right-side a .profile {
+  width: 35px;
+  border-radius: 50%;
+}
+.container .homepage .navbar-filter .filter {
   background-color: white;
-  padding: 15px 15px 15px 15px;
+  padding: 10px 5000px 10px 20px;
+  padding-right: 40px;
   border-bottom: 1px solid #e5e5e5;
   display: flex;
   justify-content: space-between;
+  width: 100%;
 }
-.container .main .homepage .filter button {
-  padding: 8px 18px;
+.container .homepage .navbar-filter .filter button {
+  padding: 8px 15px;
   border-radius: 20px;
   border: 1px solid #e5e5e5;
   color: #2d2d2d;
-  font-weight: 300px;
+  font-weight: 400px;
 }
-.container .main .grid {
+.container .homepage .grid {
   padding: 0px 20px 20px 20px;
   display: grid;
   grid: auto/auto auto auto auto;
 }
-.container .main .grid .videos .video {
+.container .homepage .grid .videos .video {
   margin-top: 20px;
 }
-.container .main .grid .videos .video .video-info {
+.container .homepage .grid .videos .video .video-info {
   display: flex;
   margin-top: 10px;
 }
-.container .main .grid .videos .video .video-info .poster-img {
+.container .homepage .grid .videos .video .video-info .poster-img {
   margin-right: 10px;
 }
-.container .main .grid .videos .video .video-info .poster-img img {
+.container .homepage .grid .videos .video .video-info .poster-img img {
   width: 40px;
   border-radius: 50%;
 }
-.container .main .grid .videos .video .video-info .info h3 {
+.container .homepage .grid .videos .video .video-info .info h3 {
   margin-bottom: 10px;
   font-size: 16px;
   color: #030303;
 }
-.container .main .grid .videos .video .video-info .info p {
+.container .homepage .grid .videos .video .video-info .info p {
   font-weight: 300px;
   color: #606060;
   font-size: 12px;
